@@ -563,6 +563,10 @@ button.close {
     display: none;
 }
 
+.zform_wrapper {
+    margin: 20px 0;
+}
+
 .zform_wrapper table {
    width: 100%;
    margin-top: -9px;
