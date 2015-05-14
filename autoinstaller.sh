@@ -97,7 +97,7 @@ if [[ "$THEME_UPDATE" = "1" ]]; then
 	rm -rf /etc/sentora/panel/etc/styles/$THEME_NAME
 fi
 
-mv -u -f $THEME_NAME-master $THEME_NAME
+mv -u -f SentoraDirectAdmin-master $THEME_NAME
 
 echo "##########################################################################################"
 if [[ "$THEME_UPDATE" = "1" ]]; then
