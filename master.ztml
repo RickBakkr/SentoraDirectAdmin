@@ -1,0 +1,283 @@
+<html><head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Sentora &gt; <# ui_tpl_username #> - <# ui_tpl_domainname #></title>
+<link href="<# ui_tpl_assetfolderpath #>style.css" rel="stylesheet" type="text/css">
+	<script language="JavaScript">
+	<!-- // start preload code
+		home_image = new Image();
+		home_image.src = "<# ui_tpl_assetfolderpath #>images/home_over.gif";
+		webmail_image = new Image();
+		webmail_image.src = "<# ui_tpl_assetfolderpath #>images/webmail_over.gif";
+		password_image = new Image();
+		password_image.src = "<# ui_tpl_assetfolderpath #>images/pass_over.gif";
+		fileman_image = new Image();
+		fileman_image.src = "<# ui_tpl_assetfolderpath #>images/file_man_over.gif";
+		help_image = new Image();
+		help_image.src = "<# ui_tpl_assetfolderpath #>images/help_over.gif";
+		logout_image = new Image();
+		logout_image.src = "<# ui_tpl_assetfolderpath #>images/logout_over.gif";
+		logout_image2 = new Image();
+		logout_image2.src = "<# ui_tpl_assetfolderpath #>images/logout2_over.gif";
+	// done with preload code -->
+	</script>
+
+</head>
+
+<body  bgcolor="#FFFFFF" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0">
+
+<table height="100%" width="100%" cellpadding=0 cellspacing=0>
+<tr>
+<td align="center">
+
+<table height=100% cellpadding=0 cellspacing=0>
+	<tr>
+		<td height=100% width=31 background="<# ui_tpl_assetfolderpath #>images/left_shadow.gif" valign="bottom">
+			<img src="<# ui_tpl_assetfolderpath #>images/left_shadow.gif">
+		</td>
+		<td  valign="top">
+			<table width="100%" height="100%" cellpadding="0" cellspacing="0">
+				<tr>
+					<td height="120" align="left" background="<# ui_tpl_assetfolderpath #>images/header_no.gif">
+					<img src="<# ui_tpl_assetfolderpath #>images/header.jpg" width="780" height="120"></td>
+				</tr>
+				<tr>
+
+
+
+
+
+
+					<td height="100%" valign="top" background="<# ui_tpl_assetfolderpath #>images/inner_bg.gif">
+
+						<table width="100%" height="100%" cellspacing="0" cellpadding="0">
+							<tr>
+								<td width="800" valign="top" height="1">
+									<table width="100%" cellspacing="0" cellpadding="0" background="<# ui_tpl_assetfolderpath #>images/nav_bg.gif">
+										<tr>
+											<td><a onMouseOver="navhome.src=home_image.src;"       onMouseOut="navhome.src='<# ui_tpl_assetfolderpath #>images/home.gif';"       href="/"><img name="navhome" border="0" src="<# ui_tpl_assetfolderpath #>images/home.gif" width="72" height="78" alt="Home"></a></td>
+											<td><a onMouseOver="navwebmail.src=webmail_image.src;" onMouseOut="navwebmail.src='<# ui_tpl_assetfolderpath #>images/webmail.gif';" href="/?module=webmail"><img name="navwebmail" border="0" src="<# ui_tpl_assetfolderpath #>images/webmail.gif" width="72" height="78" alt="Webmail"></a></td>
+											<td><a onMouseOver="navpass.src=password_image.src;"   onMouseOut="navpass.src='<# ui_tpl_assetfolderpath #>images/pass.gif';"   href="/?module=password_assistant"><img name="navpass" border="0" src="<# ui_tpl_assetfolderpath #>images/pass.gif" width="72" height="78" alt="Password"></a></td>
+											<td><a onMouseOver="navhelp.src=help_image.src;"       onMouseOut="navhelp.src='<# ui_tpl_assetfolderpath #>images/help.gif';" href="/?module=faqs"><img name="navhelp" border="0" src="<# ui_tpl_assetfolderpath #>images/help.gif" width="67" height="78" alt="Help"></a></td>
+										<!--	<td><a onMouseOver="navfileman.src=fileman_image.src;" onMouseOut="navfileman.src='<# ui_tpl_assetfolderpath #>images/file_man.gif';" href="?c=advanced&p=filemanager"><img name="navfileman" border="0" src="<# ui_tpl_assetfolderpath #>images/file_man.gif" width="72" height="78" alt="File manager"></a></td>-->
+
+											<td width="100%" align="right"><a onMouseOver="navlogout.src=logout_image.src;" onMouseOut="navlogout.src='<# ui_tpl_assetfolderpath #>images/logout.gif';" href="/?logout"><img name="navlogout" border="0" src="<# ui_tpl_assetfolderpath #>images/logout.gif" width="93" height="78" alt="Log Out"></a></td>
+										</tr>
+									</table>
+									<table width="100%" height="100%" cellpadding=0 cellspacing=0 class="main">
+									<tr><td class="mainlayout" valign="top" style="padding-bottom: 35px;">
+									<# ui_tpl_notice #>
+									<# ui_tpl_shadowbar #>
+									<# ui_tpl_modulelist2column #>
+									<# ui_tpl_module #>
+								<br>
+
+
+
+									</td></tr>				
+									</table>
+								</td>
+								<td style="background: #345b80" class="white" vAlign="top" align="right">
+								<img src="<# ui_tpl_assetfolderpath #>images/account.gif" width="180" height="28" style="font-size: 8pt; font-family: verdana, arial, helvetica, sans-serif; line-height: 16px; behavior: url(#htmlfilter)"><table cellSpacing="0" cellPadding="4" width="100%" style="font-size: 8pt; font-family: verdana, arial, helvetica, sans-serif; line-height: 16px">
+									<tbody>
+										<tr>
+											<td align="middle">
+											<table class="white" border="0" cellSpacing="0" cellPadding="4" width="100%">
+												<tbody style="font-size: 8pt; font-family: verdana, arial, helvetica, sans-serif; line-height: 16px">
+													<tr style="font-size: 8pt; font-family: verdana, arial, helvetica, sans-serif; line-height: 16px">
+														<td class="bar-row1" width="33%">
+														<font size="1">Username</font></td>
+														<td class="bar-row1" width="33%" align="middle">
+														<a class="tabtext" title="Click to Update Usage" href="?c=account&p=usage_viewer">
+														<font size="1"><# ui_tpl_username #></font></a></td>
+													</tr>
+													<tr style="font-size: 8pt; font-family: verdana, arial, helvetica, sans-serif; line-height: 16px">
+														<td class="bar-row2" width="33%">
+														<font size="1">Full name</font></td>
+														<td class="bar-row2" width="33%" align="middle">
+														<font size="1"><# ui_tpl_fullname #></font></td>
+													</tr>
+													<tr style="font-size: 8pt; font-family: verdana, arial, helvetica, sans-serif; line-height: 16px">
+														<td class="bar-row1" width="33%">
+														<font size="1">E-Mail</font></td>
+														<td class="bar-row1" width="33%" align="middle">
+														<font size="1"><a href="/?module=my_account" title="Update your contact email address"><# ui_tpl_email #></a></font></td>
+													</tr>
+													<tr style="font-size: 8pt; font-family: verdana, arial, helvetica, sans-serif; line-height: 16px">
+														<td class="bar-row2" width="33%">
+														<font size="1">Package</font></td>
+														<td class="bar-row2" width="33%" align="middle">
+														<font size="1"><# ui_tpl_packagename #></font></td>
+													</tr>
+													<tr style="font-size: 8pt; font-family: verdana, arial, helvetica, sans-serif; line-height: 16px">
+														<td class="bar-row1" width="33%">
+														Account type</td>
+														<td class="bar-row1" width="33%" align="middle">
+														<# ui_tpl_usergroup #></td>
+													</tr>
+													</table>
+											</td>
+										</tr>
+								</table>
+								<table cellSpacing="0" cellPadding="4" width="100%" style="font-size: 8pt; font-family: verdana, arial, helvetica, sans-serif; line-height: 16px">
+									<tbody>
+										<tr>
+											<td align="middle">
+											<table class="white" border="0" cellSpacing="0" cellPadding="4" width="100%">
+												<tbody style="font-size: 8pt; font-family: verdana, arial, helvetica, sans-serif; line-height: 16px">
+													<tr style="font-size: 8pt; font-family: verdana, arial, helvetica, sans-serif; line-height: 16px">
+														<td width="33%" style="font-size: 8pt; font-family: verdana, arial, helvetica, sans-serif; line-height: 16px">&nbsp;</td>
+														<td width="33%" align="middle" style="font-size: 8pt; font-family: verdana, arial, helvetica, sans-serif; line-height: 16px">
+														<b style="font-size: 8pt; font-family: verdana, arial, helvetica, sans-serif; line-height: 16px">
+														Used</b></td>
+														<td width="34%" align="middle" style="font-size: 8pt; font-family: verdana, arial, helvetica, sans-serif; line-height: 16px">
+														<b style="font-size: 8pt; font-family: verdana, arial, helvetica, sans-serif; line-height: 16px">
+														Max</b></td>
+													</tr>
+													<tr style="font-size: 8pt; font-family: verdana, arial, helvetica, sans-serif; line-height: 16px">
+														<td class="bar-row1" width="33%">
+														<a class="tabtext" title="Click to Update Usage" href="/?module=usage_viewer">
+														<font size="1">Disk 
+														</font><font size="1">Space</font></a></td>
+														<td class="bar-row1" width="33%" align="middle">
+														<# ui_tpl_usagediskspace #></td>
+														<td class="bar-row1" width="34%" align="middle">
+														<# ui_tpl_quotadiskspace #></td>
+													</tr>
+													<tr style="font-size: 8pt; font-family: verdana, arial, helvetica, sans-serif; line-height: 16px">
+														<td class="bar-row2" width="33%">
+														<font size="1">Bandwidth</font></td>
+														<td class="bar-row2" width="33%" align="middle">
+														<# ui_tpl_usagebandwidth #></td>
+														<td class="bar-row2" width="34%" align="middle">
+														<# ui_tpl_quotabandwidth #></td>
+													</tr>
+													<tr>
+														<td class="bar-row1" width="33%">
+														<strong style="font-weight: 400">
+														Domains</strong></td>
+														<td class="bar-row1" width="33%" align="middle">
+														<span class="Side_Info"><# ui_tpl_useddomains #></span></td>
+														<td class="bar-row1" width="34%" align="middle">
+														<span class="Side_Info"><# ui_tpl_totaldomains #></span></td>
+													</tr>
+													<tr>
+														<td class="bar-row2" width="33%">
+														Sub-domains</td>
+														<td class="bar-row2" width="33%" align="middle">
+														<span class="Side_Info"><# ui_tpl_usedsubdomains #></span></td>
+														<td class="bar-row2" width="34%" align="middle">
+														<span class="Side_Info"><# ui_tpl_totalsubdomains #></span></td>
+													</tr>
+													<tr>
+														<td class="bar-row1" width="33%">
+														Parked domains</td>
+														<td class="bar-row1" width="33%" align="middle">
+														<span class="Side_Info"><# ui_tpl_usedparkeddomains #></span></td>
+														<td class="bar-row1" width="34%" align="middle">
+														<span class="Side_Info"><# ui_tpl_totalparkeddomains #></span></td>
+													</tr>
+													<tr>
+														<td class="bar-row2" width="33%">
+														FTP Accounts</td>
+														<td class="bar-row2" width="33%" align="middle">
+														<span class="Side_Info"><# ui_tpl_usedftp #></span></td>
+														<td class="bar-row2" width="34%" align="middle">
+														<span class="Side_Info"><# ui_tpl_totalftp #></span></td>
+													</tr>
+													<tr>
+														<td class="bar-row1" width="33%">
+														Email Accounts</td>
+														<td class="bar-row1" width="33%" align="middle">
+														<span class="Side_Info"><# ui_tpl_usedemail #></span></td>
+														<td class="bar-row1" width="34%" align="middle">
+														<span class="Side_Info"><# ui_tpl_totalemail #></span></td>
+													</tr>
+													<tr>
+														<td class="bar-row2" width="33%">
+														Email Forwarders</td>
+														<td class="bar-row2" width="33%" align="middle">
+														<span class="Side_Info"><# ui_tpl_usedforwarders #></span></td>
+														<td class="bar-row2" width="34%" align="middle">
+														<span class="Side_Info"><# ui_tpl_totalforwarders #></span></td>
+													</tr>
+													<tr>
+														<td class="bar-row1" width="33%">
+														Distrubution Lists</td>
+														<td class="bar-row1" width="33%" align="middle">
+														<span class="Side_Info"><# ui_tpl_useddistlists #></span></td>
+														<td class="bar-row1" width="34%" align="middle">
+														<span class="Side_Info"><# ui_tpl_totaldistlists #></span></td>
+													</tr>
+											</table>
+											</td>
+										</tr>
+								</table>
+								<br style="font-size: 8pt; font-family: verdana, arial, helvetica, sans-serif; line-height: 16px">
+								&nbsp;<table cellSpacing="0" cellPadding="4" width="100%" style="font-size: 8pt; font-family: verdana, arial, helvetica, sans-serif; line-height: 16px">
+									<tbody>
+										<tr>
+											<td align="middle">
+											<table class="white" border="0" cellSpacing="0" cellPadding="4" width="100%">
+												<tbody style="font-size: 8pt; font-family: verdana, arial, helvetica, sans-serif; line-height: 16px">
+													<tr>
+														<td class="bar-row1">
+														Your IP</td>
+														<td class="bar-row1" width="67%" align="middle">
+														<# ui_tpl_clientipaddress #></td>
+													</tr>
+													<tr style="font-size: 8pt; font-family: verdana, arial, helvetica, sans-serif; line-height: 16px">
+														<td class="bar-row2">
+														Apache Version</td>
+														<td class="bar-row2" width="67%" align="middle">
+														<# ui_tpl_apacheversion #></td>
+													</tr>
+													<tr>
+														<td class="bar-row1">
+														PHP Version</td>
+														<td class="bar-row1" width="67%" align="middle">
+														<# ui_tpl_phpversion #></td>
+													</tr>
+													<tr>
+														<td class="bar-row2">
+														MySQL Version</td>
+														<td class="bar-row2" width="67%" align="middle">
+														<# ui_tpl_mysqlversion #></td>
+													</tr>
+													<tr>
+														<td class="bar-row1">
+														Sentora Version</td>
+														<td class="bar-row1" width="67%" align="middle">
+														<# ui_tpl_sentoraversion #></td>
+													</tr>
+											</table>
+											</td>
+										</tr>
+								</table>
+								</td>
+							</tr>
+						</table>
+</td>
+				</tr>
+
+				<tr>
+					<td height="50 align="center valign="bottom" class="white" style="padding-bottom: 8; BACKGROUND: #345B80; background-image: url('<# ui_tpl_assetfolderpath #>images/footer_bar.gif'); background-repeat:no-repeat;">
+						<center> Copyright &copy; 2004-<# ui_tpl_year #> <a href="http://www.sentora.org/" target="_blank">Sentora Project</a>. Theme created by <a href="https://www.github.com/RickB2000" target="_blank">RickB2000</a>. </center>
+					</td>
+				</tr>
+			</table>
+
+
+		</td>
+		<td width="31" background="<# ui_tpl_assetfolderpath #>images/right_shadow.gif">
+		</td>
+	</tr>
+</table>
+
+
+
+</td>
+</tr>
+</table>
+</body>
+</html>
