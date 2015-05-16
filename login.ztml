@@ -2,21 +2,25 @@
 <html>
 	<head>
 		<title>Sentora &gt;  Login</title>
-<style>
-*{ FONT-SIZE: 8.5pt; FONT-FAMILY: verdana; } b { FONT-WEIGHT: bold; } .listtitle { BACKGROUND: #425984; COLOR: #EEEEEE; white-space: nowrap; border-radius: 3px; box-shadow: 1px 1px 3px #727272; } td.list { BACKGROUND: #EEEEEE; white-space: nowrap; } input { border-radius: 3px; padding-left: 4px; padding-right: 4px; } .inset { border: 1px inset #DDDDDD; } </style>
-</head>
-<body onload="document.form.username.focus();if(document.form.referer.value.indexOf('#')==-1)document.form.referer.value+=location.hash;">
-
-<center><br><br><br><br>
-<h1>Sentora Login Page</h1>
-<table cellspacing=1 cellpadding=5>
-<tr>
-<td class=listtitle colspan=2>Please enter your Username and Password</td></tr>
-<form role="form" method="post" name="form" id="form">
-<tr><td class=list align=right>Username:</td><td class=list><input class=inset type=text name=inUsername></td></tr>
-<tr><td class=list align=right>Password:</td><td class=list><input class=inset type=password name=inPassword></td></tr>
-<tr><td class=listtitle align=right colspan=2><input type=submit value='Login'></td></tr>
-<?php echo runtime_csfr::Token(); ?>
-</form>
-</table>
-</center></body></html>
+		<style>
+		*{ FONT-SIZE: 8.5pt; FONT-FAMILY: verdana; } b { FONT-WEIGHT: bold; } .listtitle { BACKGROUND: #425984; COLOR: #EEEEEE; white-space: nowrap; border-radius: 3px; box-shadow: 1px 1px 3px #727272; } td.list { BACKGROUND: #EEEEEE; white-space: nowrap; } input { border-radius: 3px; padding-left: 4px; padding-right: 4px; } .inset { border: 1px inset #DDDDDD; } 
+		</style>
+	</head>
+	<body onload="document.form.username.focus();if(document.form.referer.value.indexOf('#')==-1)document.form.referer.value+=location.hash;">
+		<center>
+			<br /><br /><br /><br />
+			<h1>Sentora Login Page</h1>
+			<table cellspacing=1 cellpadding=5>
+				<tr>
+					<td class=listtitle colspan=2>Please enter your Username and Password</td>
+				</tr>
+				<form role="form" method="post" name="form" id="form">
+					<tr><td class=list align=right>Username:</td><td class=list><input class=inset type=text name=inUsername></td></tr>
+					<tr><td class=list align=right>Password:</td><td class=list><input class=inset type=password name=inPassword></td></tr>
+					<tr><td class=listtitle align=right colspan=2><input type=submit value='Login'></td></tr>
+					<?php echo runtime_csfr::Token(); ?>
+				</form>
+			</table>
+		</center>
+	</body>
+</html>
