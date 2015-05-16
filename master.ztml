@@ -2,23 +2,23 @@
 
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Sentora &gt; <# ui_tpl_username #> - <# ui_tpl_domainname #></title>
-<link href="<# ui_tpl_assetfolderpath #>style.css" rel="stylesheet" type="text/css">
+<link href="<# ui_tpl_csspath #>" rel="stylesheet" type="text/css">
 	<script language="JavaScript">
 	<!-- // start preload code
 		home_image = new Image();
-		home_image.src = "<# ui_tpl_assetfolderpath #>images/home_over.gif";
+		home_image.src = "<# ui_tpl_assetfolderpath #>img/home_over.gif";
 		webmail_image = new Image();
-		webmail_image.src = "<# ui_tpl_assetfolderpath #>images/webmail_over.gif";
+		webmail_image.src = "<# ui_tpl_assetfolderpath #>img/webmail_over.gif";
 		password_image = new Image();
-		password_image.src = "<# ui_tpl_assetfolderpath #>images/pass_over.gif";
+		password_image.src = "<# ui_tpl_assetfolderpath #>img/pass_over.gif";
 		fileman_image = new Image();
-		fileman_image.src = "<# ui_tpl_assetfolderpath #>images/file_man_over.gif";
+		fileman_image.src = "<# ui_tpl_assetfolderpath #>img/file_man_over.gif";
 		help_image = new Image();
-		help_image.src = "<# ui_tpl_assetfolderpath #>images/help_over.gif";
+		help_image.src = "<# ui_tpl_assetfolderpath #>img/help_over.gif";
 		logout_image = new Image();
-		logout_image.src = "<# ui_tpl_assetfolderpath #>images/logout_over.gif";
+		logout_image.src = "<# ui_tpl_assetfolderpath #>img/logout_over.gif";
 		logout_image2 = new Image();
-		logout_image2.src = "<# ui_tpl_assetfolderpath #>images/logout2_over.gif";
+		logout_image2.src = "<# ui_tpl_assetfolderpath #>img/logout2_over.gif";
 	// done with preload code -->
 	</script>
 
@@ -32,14 +32,14 @@
 
 <table height=100% cellpadding=0 cellspacing=0>
 	<tr>
-		<td height=100% width=31 background="<# ui_tpl_assetfolderpath #>images/left_shadow.gif" valign="bottom">
-			<img src="<# ui_tpl_assetfolderpath #>images/left_shadow.gif">
+		<td height=100% width=31 background="<# ui_tpl_assetfolderpath #>img/left_shadow.gif" valign="bottom">
+			<img src="<# ui_tpl_assetfolderpath #>img/left_shadow.gif">
 		</td>
 		<td  valign="top">
 			<table width="100%" height="100%" cellpadding="0" cellspacing="0">
 				<tr>
-					<td height="120" align="left" background="<# ui_tpl_assetfolderpath #>images/header_no.gif">
-					<img src="<# ui_tpl_assetfolderpath #>images/header.jpg" width="780" height="120"></td>
+					<td height="120" align="left" background="<# ui_tpl_assetfolderpath #>img/header_no.gif">
+					<img src="<# ui_tpl_assetfolderpath #>img/header.jpg" width="780" height="120"></td>
 				</tr>
 				<tr>
 
@@ -48,20 +48,20 @@
 
 
 
-					<td height="100%" valign="top" background="<# ui_tpl_assetfolderpath #>images/inner_bg.gif">
+					<td height="100%" valign="top" background="<# ui_tpl_assetfolderpath #>img/inner_bg.gif">
 
 						<table width="100%" height="100%" cellspacing="0" cellpadding="0">
 							<tr>
 								<td width="800" valign="top" height="1">
-									<table width="100%" cellspacing="0" cellpadding="0" background="<# ui_tpl_assetfolderpath #>images/nav_bg.gif">
+									<table width="100%" cellspacing="0" cellpadding="0" background="<# ui_tpl_assetfolderpath #>img/nav_bg.gif">
 										<tr>
-											<td><a onMouseOver="navhome.src=home_image.src;"       onMouseOut="navhome.src='<# ui_tpl_assetfolderpath #>images/home.gif';"       href="/"><img name="navhome" border="0" src="<# ui_tpl_assetfolderpath #>images/home.gif" width="72" height="78" alt="Home"></a></td>
-											<td><a onMouseOver="navwebmail.src=webmail_image.src;" onMouseOut="navwebmail.src='<# ui_tpl_assetfolderpath #>images/webmail.gif';" href="/?module=webmail"><img name="navwebmail" border="0" src="<# ui_tpl_assetfolderpath #>images/webmail.gif" width="72" height="78" alt="Webmail"></a></td>
-											<td><a onMouseOver="navpass.src=password_image.src;"   onMouseOut="navpass.src='<# ui_tpl_assetfolderpath #>images/pass.gif';"   href="/?module=password_assistant"><img name="navpass" border="0" src="<# ui_tpl_assetfolderpath #>images/pass.gif" width="72" height="78" alt="Password"></a></td>
-											<td><a onMouseOver="navhelp.src=help_image.src;"       onMouseOut="navhelp.src='<# ui_tpl_assetfolderpath #>images/help.gif';" href="/?module=faqs"><img name="navhelp" border="0" src="<# ui_tpl_assetfolderpath #>images/help.gif" width="67" height="78" alt="Help"></a></td>
-										<!--	<td><a onMouseOver="navfileman.src=fileman_image.src;" onMouseOut="navfileman.src='<# ui_tpl_assetfolderpath #>images/file_man.gif';" href="?c=advanced&p=filemanager"><img name="navfileman" border="0" src="<# ui_tpl_assetfolderpath #>images/file_man.gif" width="72" height="78" alt="File manager"></a></td>-->
+											<td><a onMouseOver="navhome.src=home_image.src;"       onMouseOut="navhome.src='<# ui_tpl_assetfolderpath #>img/home.gif';"       href="/"><img name="navhome" border="0" src="<# ui_tpl_assetfolderpath #>img/home.gif" width="72" height="78" alt="Home"></a></td>
+											<td><a onMouseOver="navwebmail.src=webmail_image.src;" onMouseOut="navwebmail.src='<# ui_tpl_assetfolderpath #>img/webmail.gif';" href="/?module=webmail"><img name="navwebmail" border="0" src="<# ui_tpl_assetfolderpath #>img/webmail.gif" width="72" height="78" alt="Webmail"></a></td>
+											<td><a onMouseOver="navpass.src=password_image.src;"   onMouseOut="navpass.src='<# ui_tpl_assetfolderpath #>img/pass.gif';"   href="/?module=password_assistant"><img name="navpass" border="0" src="<# ui_tpl_assetfolderpath #>img/pass.gif" width="72" height="78" alt="Password"></a></td>
+											<td><a onMouseOver="navhelp.src=help_image.src;"       onMouseOut="navhelp.src='<# ui_tpl_assetfolderpath #>img/help.gif';" href="/?module=faqs"><img name="navhelp" border="0" src="<# ui_tpl_assetfolderpath #>img/help.gif" width="67" height="78" alt="Help"></a></td>
+										<!--	<td><a onMouseOver="navfileman.src=fileman_image.src;" onMouseOut="navfileman.src='<# ui_tpl_assetfolderpath #>img/file_man.gif';" href="?c=advanced&p=filemanager"><img name="navfileman" border="0" src="<# ui_tpl_assetfolderpath #>img/file_man.gif" width="72" height="78" alt="File manager"></a></td>-->
 
-											<td width="100%" align="right"><a onMouseOver="navlogout.src=logout_image.src;" onMouseOut="navlogout.src='<# ui_tpl_assetfolderpath #>images/logout.gif';" href="/?logout"><img name="navlogout" border="0" src="<# ui_tpl_assetfolderpath #>images/logout.gif" width="93" height="78" alt="Log Out"></a></td>
+											<td width="100%" align="right"><a onMouseOver="navlogout.src=logout_image.src;" onMouseOut="navlogout.src='<# ui_tpl_assetfolderpath #>img/logout.gif';" href="/?logout"><img name="navlogout" border="0" src="<# ui_tpl_assetfolderpath #>img/logout.gif" width="93" height="78" alt="Log Out"></a></td>
 										</tr>
 									</table>
 									<table width="100%" height="100%" cellpadding=0 cellspacing=0 class="main">
@@ -78,7 +78,7 @@
 									</table>
 								</td>
 								<td style="background: #345b80" class="white" vAlign="top" align="right">
-								<img src="<# ui_tpl_assetfolderpath #>images/account.gif" width="180" height="28" style="font-size: 8pt; font-family: verdana, arial, helvetica, sans-serif; line-height: 16px; behavior: url(#htmlfilter)"><table cellSpacing="0" cellPadding="4" width="100%" style="font-size: 8pt; font-family: verdana, arial, helvetica, sans-serif; line-height: 16px">
+								<img src="<# ui_tpl_assetfolderpath #>img/account.gif" width="180" height="28" style="font-size: 8pt; font-family: verdana, arial, helvetica, sans-serif; line-height: 16px; behavior: url(#htmlfilter)"><table cellSpacing="0" cellPadding="4" width="100%" style="font-size: 8pt; font-family: verdana, arial, helvetica, sans-serif; line-height: 16px">
 									<tbody>
 										<tr>
 											<td align="middle">
@@ -261,7 +261,7 @@
 				</tr>
 
 				<tr>
-					<td height="50 align="center valign="bottom" class="white" style="padding-bottom: 8; BACKGROUND: #345B80; background-image: url('<# ui_tpl_assetfolderpath #>images/footer_bar.gif'); background-repeat:no-repeat;">
+					<td height="50 align="center valign="bottom" class="white" style="padding-bottom: 8; BACKGROUND: #345B80; background-image: url('<# ui_tpl_assetfolderpath #>img/footer_bar.gif'); background-repeat:no-repeat;">
 						<center> Copyright &copy; 2004-<# ui_tpl_year #> <a href="http://www.sentora.org/" target="_blank">Sentora Project</a>. Theme created by <a href="https://www.github.com/RickB2000" target="_blank">RickB2000</a>. </center>
 					</td>
 				</tr>
@@ -269,7 +269,7 @@
 
 
 		</td>
-		<td width="31" background="<# ui_tpl_assetfolderpath #>images/right_shadow.gif">
+		<td width="31" background="<# ui_tpl_assetfolderpath #>img/right_shadow.gif">
 		</td>
 	</tr>
 </table>
