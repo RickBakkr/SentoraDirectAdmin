@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 THEME_NAME=directadmin
-THEME_URL=https://github.com/RickB2000/SentoraDirectAdmin/archive/master.zip
+THEME_URL=https://github.com/RickBakkr/SentoraDirectAdmin/archive/master.zip
 SENTORA_VERSION=( "1.0.0")
 
 echo "$THEME_NAME Theme installer/updater for Sentora."
